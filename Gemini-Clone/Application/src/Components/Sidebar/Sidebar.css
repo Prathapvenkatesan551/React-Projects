@@ -1,0 +1,51 @@
+.sidebar{
+background-color: rgb(29, 30, 29);
+display: flex;
+
+flex-direction: column;
+
+color: rgb(221, 223, 224);
+min-height: 100vh;
+
+justify-content: space-between;
+gap: 10px;
+align-items: center;
+width: 75px;
+
+padding: 10px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.newchat{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.newchat p{
+    width: 100px;
+    /* overflow: hidden; */
+}
+.sidebar img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.top .menu{
+    border-radius: 50%;
+    padding: 5px;
+} 
+.top .menu:hover{
+    background-color: rgb(54, 54, 55);
+}
+.top .newchat img{
+    border-radius: 50%;
+    background-color: rgb(54, 54, 55);
+    padding: 5px;
+}
+.top .newchat img:hover{
+    background-color: rgb(69, 69, 70);
+}
