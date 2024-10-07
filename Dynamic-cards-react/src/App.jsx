@@ -5,51 +5,12 @@
    return (
       <>
         <Card/>  
-        <Card2></Card2>
         <Card/>  
-        <Card2></Card2>
+        <Card/>  
+        <Card/>  
         
-        <Card/>  
-        <Card2></Card2>
         
-        <Card/>  
-        <Card2></Card2>
         
-        <Card/>  
-        <Card2></Card2>
-        
-        <Card/>  
-        <Card2></Card2>
-        
-        <Card/>  
-        <Card2></Card2>
-        
-        <Card/>  
-        <Card2></Card2>
-        
-        <Card/>  
-        <Card2></Card2>
-        
-        <Card/>  
-        <Card2></Card2>
-        
-        <Card/>  
-        <Card2></Card2>
-        
-        <Card/>  
-        <Card2></Card2>
-        
-        <Card/>  
-        <Card2></Card2>
-        
-        <Card/>  
-        <Card2></Card2>
-        
-        <Card/>  
-        <Card2></Card2>
-        
-        <Card/>  
-        <Card2></Card2>
         
       
       </ >
