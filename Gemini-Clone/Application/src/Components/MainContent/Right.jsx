@@ -4,11 +4,18 @@ const Right = () => {
   return (
     <div className='rightdiv'>
     <div className='right-top'>
+        <div>
     <button>Gemini</button>
     </div>
+    <div>
+        <button>Try Gemini Premimum</button>
+        <button>*</button>
+        <button>*</button>
+    </div>
+    </div>
     <div className='right-cards'>
-    <h1>Hello Prathap</h1>
-    <h1>How Can I help you Today ?</h1>
+    <h1 className='colors'>Hello Prathap</h1>
+    <h1 className='w-colors'>How Can I help you Today ?</h1>
     </div>
     <div className='right-bottom'>
         <div className='card'>
