@@ -1,20 +1,114 @@
 import React from 'react'
+import { useRef } from 'react';
 import './Sidebar.css'
 const Sidebar = () => {
+
+        const newchatEle=document.querySelector('.newchat');
+        const historyEle=document.querySelector('.histories');
+        const elementRef = useRef(null);
+        const historyRef = useRef(null);
+
+
+        const handleClick = () => {
+           
+        };
+        
+        
+        const handleMouseEnter = () => {
+            elementRef.current.classList.add('active');
+            historyRef.current.classList.add('active');
+        };
+      
+        const handleMouseLeave = () => {
+            elementRef.current.classList.remove('active');
+            historyRef.current.classList.remove('active');
+        };
+
+
   return (
     <div className='sidebar'>
         <div className='top'>
             <img src="menu_icon.png" alt="access" className='menu' />
-            <div className='newchat'>
+            <div className='newchat'
+            
+            onClick={handleClick}        // Mouse click event
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave} >
                 <img src="plus_icon.png" alt="" />
-                <p>New Chat</p>
+               <button className='one'
+               ref={elementRef}
+               >New  Chat</button>
             </div>
         </div>
         <div className='recent'>
+            
             <p>recent</p>
+          
+            <div className='histories'  ref={historyRef}
+             onClick={handleClick}      
+             onMouseEnter={handleMouseEnter}
+             onMouseLeave={handleMouseLeave}
+            >
             <div className='recent-search'>
                 <img src="message_icon.png" alt="" />
                 <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
             </div>
            
         </div>
