@@ -98,6 +98,7 @@ padding: 10px;
     max-height: 200px;
     overflow: scroll;
     scrollbar-width: none;
+   
 }
 .histories p{
     display: none;

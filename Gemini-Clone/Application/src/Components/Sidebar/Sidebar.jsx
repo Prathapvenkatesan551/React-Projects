@@ -133,6 +133,7 @@ const Sidebar = () => {
                 <p>Coimbatore , Tamilnadu , India</p>
                 <p>From your Ip address : updated location</p>
             </div>
+            <p>Gemini may display inaccurate info, including about people, so double-check its responses. Your privacy and Gemini Apps</p>
         </div>
       
     </div>
