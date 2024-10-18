@@ -31,7 +31,7 @@ const Sidebar = () => {
             <img src="menu_icon.png" alt="access" className='menu' />
             <div className='newchat'
             
-            onClick={handleClick}        // Mouse click event
+            onClick={handleClick}        
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave} >
                 <img src="plus_icon.png" alt="" />

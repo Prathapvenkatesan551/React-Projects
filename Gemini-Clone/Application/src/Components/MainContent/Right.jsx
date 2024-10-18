@@ -32,11 +32,15 @@ const Right = () => {
         </div>
     </div>
     <div className='engine'>
+        <div className='div-1'>
         <input type="text"  placeholder='Enter a Prompt'/>
+        </div>
+        <div div-2>
+            <img src="send_icon.png" alt="" className='send'/>
+        </div>
     </div>
     </div>
   )
 }
 
 export default Right
-//    AIzaSyDUYBwMC-faY5VOgeukoW0JR2mj1R3cG1Q

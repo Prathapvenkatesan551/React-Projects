@@ -55,16 +55,40 @@
    
     
 }
-.engine input{
-    width: 700px;
+.engine{
+    display: flex;
+    width: 90%;
+    justify-content: center;
     height: 50px;
-    border-radius: 20px;
+    background-color: aliceblue;
+    border: 2px solid rgb(142, 141, 141);
+    border-radius: 5px;
+
+}
+.engine input{
+    
+    outline: none;
     background-color: rgb(50, 50, 51);
     padding: 10px;
     border: none;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 20px; 
+    width: 100%;
+    height: 100%;
+    background-color: rgb(55, 54, 53);
+    border: none;
 
+}
+.div-1{
+    width: 100%;
+    height: 100%;
+    justify-content: right;
+}
+.send{
+    height: 46px;
+
+    background-color:rgb(55, 54, 53);
+    cursor: pointer;
 }
 .colors{
     font-size: 70px;
