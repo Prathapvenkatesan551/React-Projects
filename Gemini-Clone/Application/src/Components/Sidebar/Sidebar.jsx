@@ -5,6 +5,7 @@ const Sidebar = () => {
 
         const newchatEle=document.querySelector('.newchat');
         const historyEle=document.querySelector('.histories');
+        const bottomEle=document.querySelector('.bottom');
         const elementRef = useRef(null);
         const historyRef = useRef(null);
 
@@ -17,11 +18,14 @@ const Sidebar = () => {
         const handleMouseEnter = () => {
             elementRef.current.classList.add('active');
             historyRef.current.classList.add('active');
+            bottomEle.current.classList.add('active');
         };
       
         const handleMouseLeave = () => {
             elementRef.current.classList.remove('active');
             historyRef.current.classList.remove('active');
+            bottomEle.current.classList.remove('active');
+
         };
 
 

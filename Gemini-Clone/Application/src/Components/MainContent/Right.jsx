@@ -17,7 +17,7 @@ const Right = () => {
     <h1 className='colors'>Hello Prathap</h1>
     <h1 className='w-colors'>How Can I help you Today ?</h1>
     </div>
-    <div className='right-bottom'>
+    {/* <div className='right-bottom'>
         <div className='card'>
             <p>I sick and need help craft message for my bass</p>
         </div>
@@ -30,7 +30,7 @@ const Right = () => {
         <div className='card'>
             <p>I sick and need help craft message for my bass</p>
         </div>
-    </div>
+    </div> */}
     <div className='engine'>
         <div className='div-1'>
         <input type="text"  placeholder='Enter a Prompt'/>
