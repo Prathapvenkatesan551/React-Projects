@@ -31,6 +31,10 @@ const Right = () => {
             <p>I sick and need help craft message for my bass</p>
         </div>
     </div> */}
+    <div>
+        <p>Question which is asked</p>
+        <p>reply of Ai</p>
+    </div>
     <div className='engine'>
         <div className='div-1'>
         <input type="text"  placeholder='Enter a Prompt'/>

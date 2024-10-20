@@ -117,6 +117,8 @@ padding: 10px;
 }
 .bottom p{
     display: none;
+    padding: 3px;
+    
 }
 .bottom .bottom-items{
     display: flex;
