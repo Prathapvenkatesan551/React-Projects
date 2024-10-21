@@ -75,11 +75,6 @@ padding: 10px;
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    /* max-height: 170px; */
-   
-    /* overflow: scroll; */
-    /* -ms-overflow-style: none;  */
-  /* scrollbar-width: none; */
 }
 .recent .recent-search{
     display: flex;

@@ -13,8 +13,6 @@ const Sidebar = () => {
         const handleClick = () => {
            
         };
-        
-        
         const handleMouseEnter = () => {
             elementRef.current.classList.add('active');
             historyRef.current.classList.add('active');
