@@ -111,6 +111,30 @@ const Sidebar = () => {
                 <img src="message_icon.png" alt="" />
                 <p>What is Java ...</p>
             </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
+            <div className='recent-search'>
+                <img src="message_icon.png" alt="" />
+                <p>What is Java ...</p>
+            </div>
             </div>
            
         </div>
