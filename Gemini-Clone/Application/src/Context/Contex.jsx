@@ -9,7 +9,7 @@ import runChat from "../Config/Gemini"
         const [showResult,setResult]=useState(false);
         const [loading,setLoading]=useState(false);
         const [resultData,setResultData]=useState("");
-
+       
 
 
 const onSent=async(prompt)=>{
