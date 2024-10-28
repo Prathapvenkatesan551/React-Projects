@@ -135,14 +135,6 @@ const Sidebar = () => {
                 <img src="message_icon.png" alt="" />
                 <p>What is Java ...</p>
             </div>
-            <div className='recent-search'>
-                <img src="message_icon.png" alt="" />
-                <p>What is Java ...</p>
-            </div>
-            <div className='recent-search'>
-                <img src="message_icon.png" alt="" />
-                <p>What is Java ...</p>
-            </div>
             </div>
            
         </div>
@@ -167,6 +159,7 @@ const Sidebar = () => {
                 <p>Coimbatore , Tamilnadu , India</p>
                 <p>From your Ip address : updated location</p>
             </div>
+            <p>Gemini may display inaccurate info, including about people, so double-check its responses. Your privacy and Gemini Apps</p>
             <p>Gemini may display inaccurate info, including about people, so double-check its responses. Your privacy and Gemini Apps</p>
 
         </div>
